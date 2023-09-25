@@ -1,4 +1,4 @@
 # cv
 
 с рабочими ссылками
-https://drive.google.com/file/d/1MISVdS92QxYhWMLCmzvdbIK1LOmwN6ft/view?usp=share_link
+https://drive.google.com/file/d/1WXP20jzjsSC1_83t0BgBIGjP2R3_INmn/view?usp=sharing
