@@ -1,0 +1,209 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{new.jpeg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Лисин Владислав Андреевич \\ % Your name
+\url{v.lisin1@g.nsu.ru} \\ % Your email address
+%\url{vladislavlisin0205@gmail.com} \\ % Your URL
+(913) 783-6129 \\ % Your phone number
+г. Новосибирск \\ % Address 1
+\Sep % Some whitespace
+%\textbf{Адрес} \\
+%\\ % Address 2
+% \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Резюме} % Large heading - your name
+
+%\cvsubheading{Software Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Обо мне}
+{
+В настоящий момент прохожу обучение в НГУ, изучаю методы обработки и анализа естественного языка, в свободное время пишу код.
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Образование}
+
+%------------------------------------------------
+
+\CVItem{2020 - 2024, Новосибирский Государственный Университет}
+{
+Механико-математический Факультет
+
+Математика и Компьютерные Науки
+
+Кафедра Математического Моделирования
+}
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+\iffalse
+\CVSection{Выступления}
+
+%------------------------------------------------
+
+\CVItem{2015, \textit{Oral Presentation}, California Business Conference}{Presented research I conducted for my Masters of Engineering degree.}
+
+%------------------------------------------------
+
+\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+
+%------------------------------------------------
+\fi
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Основные технические навыки}
+
+%------------------------------------------------
+
+\CVItem{Языки программирования и периферия}
+{\begin{tabular}{p{1\textwidth}}
+\bluebullet Python - pandas, numpy, scipy etc\\
+\bluebullet Визуализация - matplotlib, shap, seaborn \\
+\bluebullet ML - pytorch, keras, scikit-learn, gbm-libs \\
+% \bluebullet Фреймворки - Flask+sqlite \\
+\bluebullet Версионирование Git \\
+\bluebullet Atlassian Stack (Jira, Bitbucket, Confluence) \\
+\bluebullet SQL - MySQL, OracleDB  \\
+% \bluebullet Docker \\
+\bluebullet С/С++ (базовый уровень) \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Общие навыки}
+{\begin{tabular}{p{1\textwidth} }
+ \bluebullet Статистический анализ (EDA)\\
+ \bluebullet Предварительная обработка данных \\
+ \bluebullet Основные методы ML \\
+ \bluebullet Базовые архитектуры нейронных сетей \\
+ \bluebullet Английский (B1-B2)\\
+ \bluebullet Ведение документации (LaTeX) \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Профессиональные интересы}
+
+%------------------------------------------------
+
+\CVItem{Data Science}
+{
+Анализ данных, машинное обучение и нейронные сети, обработка естественного языка и компьютерная лингвистика (NLP).
+}
+
+%------------------------------------------------
+
+\CVItem{Dev}
+{
+Проектирование и разработка приложений, backend.
+}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Опыт}
+
+\CVItem{06.2023 - настоящее время, \textit{Валидатор Cбер Data Science Хаб}}
+{
+Центр валидации моделей корпоративно-инвестиционного бизнеса. 
+}
+
+\CVItem{Личный}
+{
+Pet-проекты, примеры написания кода на С++ и Python, а также sql-скриптов в виде соответствующих файлов или notebooks есть на гите (см. ссылки). 
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	Ссылки
+%----------------------------------------------------------------------------------------
+
+\CVSection{Ссылки}
+
+%------------------------------------------------
+
+{\begin{tabular}{p{0.17\textwidth} p{0.12\textwidth} p{0.17\textwidth} p{0.17\textwidth}}
+\href{ https://t.me/vladfoxin666}{telegram} &  
+\href{ https://vk.com/vladlisin02}{vk} &
+ \href{ https://github.com/vladislavlisin}{github} &
+%  \href{ https://www.kaggle.com/molotov666}{kaggle} \\
+\end{tabular}}
+
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+%\clearpage % Start a new page
+
+%\userinformation % Print your information in the left column
+
+%\framebreak % End of the first column
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
