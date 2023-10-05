@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.13)  7 SEP 2023 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.13)  5 OCT 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,7 +1404,7 @@ Package rerunfilecheck Info: File `cv_Lisin.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  28765 strings out of 475385
- 502034 string characters out of 2793321
+ 502055 string characters out of 2793321
  916356 words of memory out of 3000000
  49697 multiletter control sequences out of 15000+600000
  496912 words of font info for 51 fonts, out of 8000000 for 9000
@@ -1416,7 +1416,7 @@ vips/xcharter/xch_m2vrds.enc}<D:/MiKTeX/fonts/type1/public/xcharter/XCharter-Bo
 ld.pfb><D:/MiKTeX/fonts/type1/public/xcharter/XCharter-BoldItalic.pfb><D:/MiKTe
 X/fonts/type1/public/xcharter/XCharter-Roman.pfb><D:/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb>
-Output written on cv_Lisin.pdf (1 page, 229270 bytes).
+Output written on cv_Lisin.pdf (1 page, 229325 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
